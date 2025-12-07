@@ -19,13 +19,15 @@ event-agents-skeleton/
 │   ├─ helpdesk/
 │   │   ├─ agent.py         # Example agent
 │   │   └─ README.md
-│   └─ (add your own agent folders here)
+│   └─ helpDeskML/
+│       ├─ agent.py         # My agent
+│       └─ README.md
 │
 ├─ orchestrator/
 │   ├─ coordinator.py       # Simple dispatcher to test agents
 │   └─ __init__.py
 │
-├─ .env.example             # Example env file (copy to .env and add your key)
+├─ .env             
 ├─ requirements.txt
 └─ README.md
 ```
